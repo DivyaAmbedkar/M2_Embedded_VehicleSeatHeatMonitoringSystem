@@ -1,10 +1,19 @@
 #ifndef _A2_h_
 #define _A2_h_
 #include <util/delay.h>
-#define LCD_DIRECTION  DDRB			/* Define LCD data port direction */
-#define PORT_B PORTB			/* Define LCD data port */
-#define LCD_RS PB2				/* Define Register Select pin */
-#define LCD_EN PB3 				/* Define Enable signal pin */
+
+/* Define LCD data port direction */
+#define LCD_DIRECTION  DDRB		
+
+/* Define LCD data port */
+#define PORT_B PORTB	
+
+/* Define Register Select pin */
+#define LCD_RS PB2	
+
+/* Define Enable signal pin */
+#define LCD_EN PB3 	
+
 void LCD_CMD( unsigned char command );
 void LCD_CHAR_WISE( unsigned char ch );
 void LCD_INITIALIZATION(void);
