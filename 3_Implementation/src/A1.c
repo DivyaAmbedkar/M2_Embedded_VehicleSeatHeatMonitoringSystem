@@ -4,8 +4,11 @@
 
 void A1()
 {
-    DDRD &= ~(1<<PD0); //input pin Port D pin 1
-    DDRD &= ~(1<<PD1);  //input pin Port D pin 2
+    //input pin Port D pin 1
+    DDRD &= ~(1<<PD0); 
+    
+    //input pin Port D pin 2
+    DDRD &= ~(1<<PD1);
 
     /*Giving logic HIGH for the input pins*/
     PORTD |= (1<<PD0);
@@ -16,7 +19,8 @@ void A1()
 
     if  ( (!(PIND & (1<<PD0))) & (!(PIND & (1<<PD1))) )
     {
-        PORTD |= (1<<PD2);   //Turns on the LED if both the switches are turned on by the user
+        //Turns on the LED if both the switches are turned on by the user
+        PORTD |= (1<<PD2);   
         _delay_ms(1000);
     }
     else
