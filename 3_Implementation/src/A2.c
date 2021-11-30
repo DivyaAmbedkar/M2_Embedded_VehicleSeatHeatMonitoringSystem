@@ -4,37 +4,26 @@
 #include <util/delay.h>
 void LCD_CMD( unsigned char command )
 {
-	 // Taking Upper nibble only
-  PORT_B = (PORT_B & 0x0F) | (command & 0xF0); 
-  
-  // Making LCD_RS=0
-	PORT_B &= ~ (1<<LCD_RS); 
-  
-  // Enabling EN=1
-	PORT_B |= (1<<LCD_EN);
-	
-  _delay_us(5);
+	PORT_B = (PORT_B & 0x0F) | (command & 0xF0); // Taking Upper nibble only
+	PORT_B &= ~ (1<<LCD_RS); // Making LCD_RS=0
+	PORT_B |= (1<<LCD_EN); // Enabling EN=1
+	_delay_us(5);
 	PORT_B &= ~ (1<<LCD_EN);
 
 	_delay_us(250);
 
-	//Taking Lower nibble only
-  PORT_B = (PORT_B & 0x0F) | (command << 4); 
-	
-  PORT_B |= (1<<LCD_EN);
+	PORT_B = (PORT_B & 0x0F) | (command << 4); //Taking Lower nibble only
+	PORT_B |= (1<<LCD_EN);
 	_delay_us(5);
 	PORT_B &= ~ (1<<LCD_EN);
 	_delay_ms(50);
+  
 }
 
 void LCD_CHAR_WISE( unsigned char ch )
 {
-	 /* sending upper nibble */
-  PORT_B = (PORT_B & 0x0F) | (ch & 0xF0);
-	
-  /* LCD_RS=1, ch reg. */
-  PORT_B |= (1<<LCD_RS);	
- 
+	PORT_B = (PORT_B & 0x0F) | (ch & 0xF0); /* sending upper nibble */
+	PORT_B |= (1<<LCD_RS);		/* LCD_RS=1, ch reg. */
 	PORT_B|= (1<<LCD_EN);
 	_delay_us(5);
 	PORT_B &= ~ (1<<LCD_EN);
