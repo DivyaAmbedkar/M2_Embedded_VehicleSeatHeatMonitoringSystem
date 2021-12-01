@@ -11,7 +11,7 @@ char Heat3()
         TCCR1A|=(1<<COM1A1)|(1<<WGM11)|(1<<WGM10);
         TCCR1B|=(1<<WGM12)|(1<<CS11)|(1<<CS10);//choosing 64 as prescalar as a function oc clock
         DDRB|=(1<<PB1); //set portB
-        A2();
+        Heat2();
         if((ADC>=0) && (ADC<=209))
         {
         CLEAR_LCD();
