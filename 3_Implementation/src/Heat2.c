@@ -1,6 +1,6 @@
 #include <avr/io.h>
-#include "A2.h"
-#define _A1_h_
+#include "Heat2.h"
+#define _Heat1_h_
 #include <util/delay.h>
 void LCD_CMD( unsigned char command )
 {
@@ -78,7 +78,7 @@ uint16_t ReadADC(uint8_t ch)
     ADCSRA|=(1<<ADIF);
     return (ADC);
 }
-void A2()
+void Heat2()
 {
            InitADC();
            uint16_t temp=0;
