@@ -4,7 +4,7 @@
 #include "Heat2.h"
 #define F_CPU 1600000UL
 
-char A3()
+char Heat3()
 {
         char Temp[20];
         char start[]="Temperature :)";
