@@ -1,5 +1,5 @@
-#ifndef _A2_h_
-#define _A2_h_
+#ifndef _Heat2_h_
+#define _Heat2_h_
 #include <util/delay.h>
 
 /* Define LCD data port direction */
@@ -20,7 +20,7 @@ void LCD_INITIALIZATION(void);
 void LCD_DISPLAY (char *temperature_value);
 void CLEAR_LCD();
 
-void A2(void);
+void Heat2(void);
 void InitADC(void);
 uint16_t ReadADC(uint8_t ch);
-#endif // _A2_h_
+#endif // _Heat2_h_
