@@ -15,6 +15,8 @@ The Vehicle Seat Heat Monitoring System is capable of maintaining of heat in the
 
 ## Components Used
 
+1. 16*2 LCD Interface
+2. AVR Atmega 328 Microcontroller
 
 ## Software Used
 
@@ -68,23 +70,23 @@ The Vehicle Seat Heat Monitoring System is capable of maintaining of heat in the
 
 ### High Level Requirements
 
-| High Level Requirements      | Description |
-| ----------- | ----------- |
-| HLR1      | Microcontroller   |
-| HLR2   | Temperature Sensor|
-| HLR3   | Heat Generation|
-| HLR4   | Display|
-| HLR5   | Software used|
+| ID | Description | Status |
+| ----| ----------- | -------- |
+| HLR1      | Microcontroller| Implemented |
+| HLR2   | Temperature Sensor | Implemented |
+| HLR3   | Heat Generation | Implemented |
+| HLR4   | Display | Implemented |
+| HLR5   | Software used | Implemented |
 
 ### Low Level Requirements
 
-| Low Level Requirements      | Description |
-| ----------- | ----------- |
-| HLR1_LLR1    | ATmega328     |
-| HLR2_LLR1   | LM35 and ADC|
-| HLR2_LLR2   | ADC with PWM|
-| HLR4_LLR1   |LCD and LED|
-| HLR5_LLR1   | Code Blocks with AVR GCC compiler |
-| HLR5_LLR2   | SimulIDE |
+| ID | Description | Status |
+| ---- | ----------- |-------- |
+| HLR1_LLR1    | ATmega328     | Implemented |
+| HLR2_LLR1   | LM35 and ADC | Implemented |
+| HLR2_LLR2   | ADC with PWM | Implemented |
+| HLR4_LLR1   | LCD and LED | Implemented |
+| HLR5_LLR1   | Visual Studio Code with AVR GCC compiler | Implemented |
+| HLR5_LLR2   | SimulIDE | Implemented |
 
 
