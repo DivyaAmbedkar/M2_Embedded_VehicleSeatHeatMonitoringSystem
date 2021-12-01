@@ -1,3 +1,16 @@
+/**
+ * @file main.c
+ * @author Divya
+ * @brief 
+ * @version 0.1
+ * @date 2021-12-01
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
+
+
 #include <avr/io.h>
 #include"Heat1.h"
 #include"Heat2.h"
