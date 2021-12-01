@@ -13,6 +13,14 @@ The Vehicle Seat Heat Monitoring System is capable of maintaining of heat in the
 - Low cost and robust system.
 - Modular Approach.
 
+## Components Used
+
+
+## Software Used
+
+- SimulIDE
+- Visual Studio Code
+
 ## SWOT
 
 ### Strengths
