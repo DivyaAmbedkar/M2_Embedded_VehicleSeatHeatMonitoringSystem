@@ -1,8 +1,8 @@
 #include<avr/io.h>
 #include <util/delay.h>
-#include"A1.h"
+#include"Heat1.h"
 
-void A1()
+void Heat1()
 {
     //input pin Port D pin 1
     DDRD &= ~(1<<PD0); 
