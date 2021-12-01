@@ -1,7 +1,7 @@
 #include <avr/io.h>
-#include<util/delay.h>
-#include "A3.h"
-#include "A2.h"
+#include <util/delay.h>
+#include "Heat3.h"
+#include "Heat2.h"
 #define F_CPU 1600000UL
 
 char A3()
