@@ -3,7 +3,7 @@
 This mini project is based on the Vehicle Seat Heat Monitoring System. It is capable of maintaining of heat in the vehicles seats using ATmega328 microcontroller along with temperature sensor, Switches, Heat generator,and LCD display,etc.
 
 ## Working
-### In Action - Both Switches ON
+### In Action 
 |20%-Duty Cycle|40%-Duty Cycle|70%-Duty Cycle|95%-Duty Cycle|
 |:--:|:--:|:--:|:--:|
 ![OUTPUT1](https://user-images.githubusercontent.com/94296796/144364300-4e1c9c32-7f00-4cc3-a4ce-572752efce57.png)|![OUTPUT2](https://user-images.githubusercontent.com/94296796/144364316-957a0e8f-7458-40ff-8a48-b14f245f175a.png)|![OUTPUT3](https://user-images.githubusercontent.com/94296796/144364345-6e82f6c0-0f32-49e8-91a5-22fb7f076f65.png)|![OUTPUT4](https://user-images.githubusercontent.com/94296796/144364372-d8cc1049-dbe5-46a4-8ce9-5150dbe9c35b.png)|
