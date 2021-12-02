@@ -26,6 +26,6 @@ Case 3: When Seat switch is OFF and Heater Switch is ON
 
 ![case3](https://user-images.githubusercontent.com/94296796/144425501-730743b9-cd14-408d-be0b-eb19e7dd5462.png)
 
-Case4: When both the switches are ON
+Case4: When both the switches are ON-LED will GLOW
 
 ![case4](https://user-images.githubusercontent.com/94296796/144425527-4fed6f81-558a-4660-9fef-4916ff7e6b11.png)
