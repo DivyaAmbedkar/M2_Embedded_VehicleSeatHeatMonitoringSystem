@@ -18,10 +18,9 @@ The Vehicle Seat Heat Monitoring System is capable of maintaining of heat in the
 1. Power Supply
 2. Switches
 3. Temperature sensor
-4. Heater
-5. LED
-6. LCD Display
-7. AVR Atmega 328 Microcontroller
+4. LED
+5. LCD Display
+6. AVR Atmega 328 Microcontroller
 
 ## Software Used
 
