@@ -13,6 +13,15 @@ The Vehicle Seat Heat Monitoring System is capable of maintaining of heat in the
 - Low cost and robust system.
 - Modular Approach.
 
+## Components Used
+
+1. Power Supply
+2. Switches
+3. Temperature sensor
+4. LED
+5. LCD Display
+6. AVR Atmega 328 Microcontroller
+
 ## Software Used
 
 - SimulIDE
