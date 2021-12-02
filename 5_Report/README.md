@@ -130,6 +130,7 @@ Case4: When both the switches are ON-LED will GLOW
 # Test Plan
 
 ## High Level Test plan
+
 Test ID |	Description |	Exp I/P |	Exp O/P | Actual Out | Type of Test
 |--------|-------------|---------|---------|------------|-------------
 | HLT_01 | Seat Switch is ON and Heater Switch is OFF | Seat Switch is ON | LED will not GLOW | SUCCESS | Requirement Based 
@@ -138,12 +139,22 @@ Test ID |	Description |	Exp I/P |	Exp O/P | Actual Out | Type of Test
 
 
 ## Low level test plan
+
 |Test ID | Description | Exp I/P | Exp O/P | Actual Out | Type of Test
 |--------|-------------|---------|---------|------------|-------------
 | LLR_01 | Duty Cycle | 20% | Temperature displayed in the LCD | SUCCESS | Requirement Based        
 | LLR_02 | Duty Cycle | 40% | Temperature displayed in the LCD | SUCCESS | Requirement Based      
 | LLR_03 | Duty Cycle | 70% | Temperature displayed in the LCD | SUCCESS | Requirement Based      
 | LLR_04 | Duty Cycle | 95% | Temperature displayed in the LCD | SUCCESS | Requirement Based    
+
+## Both Switches ON
+ 
+| Duty Cycle | Output                              | 
+|------------|-------------------------------------|
+| 20%        | ![OUTPUT1](https://user-images.githubusercontent.com/94296796/144364300-4e1c9c32-7f00-4cc3-a4ce-572752efce57.png)|
+| 40%        | ![OUTPUT2](https://user-images.githubusercontent.com/94296796/144364316-957a0e8f-7458-40ff-8a48-b14f245f175a.png)|
+| 70%        | ![OUTPUT3](https://user-images.githubusercontent.com/94296796/144364345-6e82f6c0-0f32-49e8-91a5-22fb7f076f65.png)| 
+| 95%        | ![OUTPUT4](https://user-images.githubusercontent.com/94296796/144364372-d8cc1049-dbe5-46a4-8ce9-5150dbe9c35b.png)|
 
 
 
