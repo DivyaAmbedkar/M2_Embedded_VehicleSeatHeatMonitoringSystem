@@ -143,6 +143,16 @@ Test ID |	Description |	Exp I/P |	Exp O/P | Actual Out | Type of Test
 | LLR_01 | Duty Cycle | 20% | Temperature displayed in the LCD | SUCCESS | Requirement Based        
 | LLR_02 | Duty Cycle | 40% | Temperature displayed in the LCD | SUCCESS | Requirement Based      
 | LLR_03 | Duty Cycle | 70% | Temperature displayed in the LCD | SUCCESS | Requirement Based      
-| LLR_04 | Duty Cycle | 95% | Temperature displayed in the LCD | SUCCESS | Requirement Based      
+| LLR_04 | Duty Cycle | 95% | Temperature displayed in the LCD | SUCCESS | Requirement Based    
+
+### Both Switches ON
+
+| Duty Cycle | Output                              | 
+|------------|-------------------------------------|
+| 20%        | ![20](https://user-images.githubusercontent.com/57322769/133645222-3ddde51a-e634-4c18-9dd8-ef50cb6a59e2.png) | 
+| 40%        | ![40](https://user-images.githubusercontent.com/57322769/133645202-3eef8e2d-1bef-427d-b15e-d0aa27fa822f.png) | 
+| 70%        | ![70](https://user-images.githubusercontent.com/57322769/133645206-9f92c0a2-edae-456c-bcdd-4f7597c6e4aa.png) | 
+| 95%        |![90](https://user-images.githubusercontent.com/57322769/133645208-51a9b7a5-84e9-442b-99d6-79434a237a15.png) | 
+
 
 
