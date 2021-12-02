@@ -1,16 +1,26 @@
 
-## Test Plans
-## High Level Test Cases
-Test Id|	Description|	Expected output|	Actual output|	Pass/Fail(Result)|
-|------|---------------|-------------------|-----------------|-------------------|
-|H01|When the driver is seated over the push button to activate the system |on/off|on/off|	Pass|
-|H02|the heater is turned on basis by calculating the temperature inside the vehicle|	on/off|	on/off|	Pass|
-|HO3| System output generated is monitored|LCD ON/OFF|LCD ON/OFF| pass|
+## Test Plan
 
-## Low Level Test Cases
-Test Id|	Description	|Expected output|	Actual output|	Pass/Fail(Result)|
-|------|----------------|---------------|----------------|-------------------|
-|L01|Vehicle heat monitor system should display the calculated data without error|	Display Output|	Display Output|	Pass
+## High Level Test plan
+Test ID |	Description |	Exp I/P |	Exp O/P | Actual Out | Type of Test
+|--------|-------------|---------|---------|------------|-------------
+| HLT_01 | Seat Switch is ON and Heater Switch is OFF | Seat Switch is ON | LED will not GLOW | SUCCESS | Requirement Based 
+| HLT_02 | Seat Switch is OFF and Heater Switch is ON | Heater Switch is ON |  LED will not GLOW | SUCCESS | Requirement Based 
+| HLT_03 | Seat Switch is ON and Heater Switch is ON | Both Switches are ON | LED will GLOW | SUCCESS | Requirement Based 
+
+
+## Low level test plan
+|Test ID | Description | Exp I/P | Exp O/P | Actual Out | Type of Test
+|--------|-------------|---------|---------|------------|-------------
+| LLR_01 | Duty Cycle | 20% | Temperature displayed in the LCD | SUCCESS | Requirement Based        
+| LLR_02 | Duty Cycle | 40% | Temperature displayed in the LCD | SUCCESS | Requirement Based      
+| LLR_03 | Duty Cycle | 70% | Temperature displayed in the LCD | SUCCESS | Requirement Based      
+| LLR_04 | Duty Cycle | 95% | Temperature displayed in the LCD | SUCCESS | Requirement Based      
+
+
+
+
+
 
 ## Output
 
