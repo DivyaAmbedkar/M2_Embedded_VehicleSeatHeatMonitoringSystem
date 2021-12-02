@@ -93,7 +93,7 @@ The Vehicle Seat Heat Monitoring System is capable of maintaining of heat in the
 | HLR5_LLR1   | Visual Studio Code with AVR GCC compiler | Implemented |
 | HLR5_LLR2   | SimulIDE | Implemented |
 
-### Design
+# Design
 
 ## Structural Diagram
 
@@ -107,9 +107,9 @@ The Vehicle Seat Heat Monitoring System is capable of maintaining of heat in the
 
 ![BD2](https://user-images.githubusercontent.com/94296796/144100009-11a72848-63d5-427c-a271-7913a0310082.jpg)
 
-## Simulations
+# Simulations
 
-### When Requirements not met
+## When Requirements not met
 
 Case1: When both the Seat Switch and HeaterSwitch turned off  
 
@@ -127,7 +127,7 @@ Case4: When both the switches are ON-LED will GLOW
 
 ![case4](https://user-images.githubusercontent.com/94296796/144425527-4fed6f81-558a-4660-9fef-4916ff7e6b11.png)
 
-## Test Plan
+# Test Plan
 
 ## High Level Test plan
 Test ID |	Description |	Exp I/P |	Exp O/P | Actual Out | Type of Test
@@ -145,14 +145,6 @@ Test ID |	Description |	Exp I/P |	Exp O/P | Actual Out | Type of Test
 | LLR_03 | Duty Cycle | 70% | Temperature displayed in the LCD | SUCCESS | Requirement Based      
 | LLR_04 | Duty Cycle | 95% | Temperature displayed in the LCD | SUCCESS | Requirement Based    
 
-### Both Switches ON
-
-| Duty Cycle | Output                              | 
-|------------|-------------------------------------|
-| 20%        | ![20](https://user-images.githubusercontent.com/57322769/133645222-3ddde51a-e634-4c18-9dd8-ef50cb6a59e2.png) | 
-| 40%        | ![40](https://user-images.githubusercontent.com/57322769/133645202-3eef8e2d-1bef-427d-b15e-d0aa27fa822f.png) | 
-| 70%        | ![70](https://user-images.githubusercontent.com/57322769/133645206-9f92c0a2-edae-456c-bcdd-4f7597c6e4aa.png) | 
-| 95%        |![90](https://user-images.githubusercontent.com/57322769/133645208-51a9b7a5-84e9-442b-99d6-79434a237a15.png) | 
 
 
 
