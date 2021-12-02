@@ -1,3 +1,6 @@
+# Output Images
+
+### When requirements not met
 
  Case1: When both the Seat Switch and HeaterSwitch turned off                  
 
@@ -15,6 +18,7 @@ Case4: When both the switches are ON
 
 ![case4](https://user-images.githubusercontent.com/57322769/133645220-76e9c3ea-f97c-446f-8529-a4bd68d911ea.png) 
 
+## Both Switches ON
 
 | Duty Cycle | Output                              | 
 |------------|-------------------------------------|
